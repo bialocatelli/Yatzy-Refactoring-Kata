@@ -233,6 +233,7 @@ Yatzy.fullHouse = function(d1, d2, d3, d4, d5)
         return 0;
 }
 
+
 module.exports = Yatzy;
 
 

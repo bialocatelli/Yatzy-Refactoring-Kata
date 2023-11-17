@@ -86,6 +86,6 @@ class UnsDoisTresQuatrosCincosSeis extends Yatzy{
 const yatzyGame = new Yatzy(1, 2, 3, 4, 5);
 console.log(yatzyGame.dados); // Saída: [1, 2, 3, 4, 5]
 
-const um = new UnsDoisTresQuatrosCincosSeis(5, 3, 5, 6, 2)
-console.log(um.dois())
+const jogada1 = new UnsDoisTresQuatrosCincosSeis(2, 3, 5, 6, 2)
+console.log(jogada1.dois()) // Saída: 4
 
